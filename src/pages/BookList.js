@@ -13,42 +13,42 @@ function BookList() {
       title: "The Great Gatsby",
       author: "F. Scott Fitzgerald",
       price: 12.99,
-      image: "https://via.placeholder.com/200x300/4A90E2/FFFFFF?text=Great+Gatsby"
+      image: `${process.env.PUBLIC_URL}/images/gatsby.jpg`
     },
     {
       id: 2,
       title: "To Kill a Mockingbird", 
       author: "Harper Lee",
       price: 14.99,
-      image: "https://via.placeholder.com/200x300/50E3C2/FFFFFF?text=Mockingbird"
+      image: `${process.env.PUBLIC_URL}/images/mockingbird.jpg`
     },
     {
       id: 3,
       title: "1984",
       author: "George Orwell",
       price: 10.99,
-      image: "https://via.placeholder.com/200x300/9013FE/FFFFFF?text=1984"
+      image: `${process.env.PUBLIC_URL}/images/1984.jpg`
     },
     {
       id: 4,
       title: "Pride and Prejudice",
       author: "Jane Austen",
       price: 11.99,
-      image: "https://via.placeholder.com/200x300/F5A623/FFFFFF?text=Pride+Prejudice"
+      image: `${process.env.PUBLIC_URL}/images/pride.jpg`
     },
     {
       id: 5,
       title: "The Hobbit",
       author: "J.R.R. Tolkien",
       price: 13.99,
-      image: "https://via.placeholder.com/200x300/27ae60/FFFFFF?text=The+Hobbit"
+      image: `${process.env.PUBLIC_URL}/images/hobbit.jpg`
     },
     {
       id: 6,
       title: "Harry Potter",
       author: "J.K. Rowling",
       price: 15.99,
-      image: "https://via.placeholder.com/200x300/e74c3c/FFFFFF?text=Harry+Potter"
+      image: `${process.env.PUBLIC_URL}/images/harrypotter.jpg`
     }
   ];
 
